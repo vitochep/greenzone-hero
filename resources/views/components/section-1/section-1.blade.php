@@ -1,6 +1,7 @@
 <section class="section-1">
     <div class="background-map">
         <img class="logo-star" src="/image/svg/logo-star.svg" alt="logo-star">
+        <img class="join-star" src="/image/svg/join-star.svg" alt="logo-star">
 
 
         <div class="section-wrapper">
@@ -46,6 +47,14 @@
                     </div>
                 </div>
 
+                <div class="center-block">
+                    <h3 class="center-block_subtitle">FIND YOUR COMMUNITY WITH</h3>
+                    <h1 class="center-block_title">GREENZONE HERO</h1>
+
+                    <a href="#" class="center-block_button">
+                        <span>Find a Business</span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
