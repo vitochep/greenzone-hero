@@ -1,5 +1,6 @@
 .section-1 {
     position: relative;
+    z-index: 2;
 
     .background-map {
         background-image: url("/image/svg/main-section.svg");
@@ -26,21 +27,12 @@
         right: 109px;
     }
 
-    .section-wrapper {
-        padding: 0 20px;
-    }
-
-    .section-container {
-        max-width: 1764px;
-        margin: 0 auto;
-        overflow-y: auto;
-        overflow-x: hidden;
-
-        &.mod-section_1 {
+    .section-container.mod-section_1 {
+            max-width: 1764px;
             height: 1493px;
             display: flex;
             flex-direction: column;
-        }
+
     }
 
     .header-elems {

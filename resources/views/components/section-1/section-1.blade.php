@@ -8,7 +8,7 @@
             <div class="section-container mod-section_1">
                 <div class="header-elems">
                     <div class="header-elems_top">
-                        <img class="logo-browse" src="/image/Group4.png" alt="logo-star">
+                        <img class="logo-browse" src="/image/header-image.png" alt="logo-star">
                         <div class="section-buttons">
                             <a class="join-button" href="#">
                                 <span>JOIN</span>

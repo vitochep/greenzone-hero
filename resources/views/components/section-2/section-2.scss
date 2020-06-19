@@ -1,0 +1,56 @@
+
+.section-2 {
+    position: relative;
+
+    .group-star {
+        position: absolute;
+        width: 259px;
+        height: 304px;
+        z-index: 4;
+        top: -205px;
+        left: 35px;
+    }
+
+    .background_section-2 {
+        position: relative;
+        z-index: 1;
+        background: linear-gradient(180deg, #464069 0%, rgba(118, 107, 175, 0) 37.79%);
+        height: calc(100vh + 160px);
+        top: -160px;
+    }
+
+    .star-banner {
+        position: absolute;
+        width: 1093px;
+        height: 1093px;
+        right: 0;
+        top: 520px;
+    }
+
+    .section-container.mod-section_2 {
+        position: relative;
+        max-width: 1616px;
+        top: 257px;
+    }
+
+    .section-title {
+        font-family: 'PlayfairDisplay';
+        max-width: fit-content;
+        margin: 0 auto;
+        font-weight: 400;
+        color: #464069;
+
+        h2 {
+            font-size: 50px;
+            line-height: 67px;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 24px;
+            line-height: 32px;
+            text-align: right;
+        }
+    }
+
+}

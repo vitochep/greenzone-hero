@@ -18,3 +18,13 @@ body {
 input {
     outline: none;
 }
+
+.section-wrapper {
+    padding: 0 20px;
+}
+
+.section-container {
+    margin: 0 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
