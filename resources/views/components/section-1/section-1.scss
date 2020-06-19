@@ -9,7 +9,7 @@
         height: 1591px;
     }
 
-    .logo-star{
+    .logo-star {
         position: absolute;
         width: 385px;
         height: 355px;
@@ -17,7 +17,7 @@
         left: 0;
     }
 
-    .section-wrapper{
+    .section-wrapper {
         padding: 0 20px;
     }
 
@@ -26,6 +26,52 @@
         margin: 0 auto;
         overflow-y: auto;
         overflow-x: hidden;
+
+    }
+
+    .header-elems {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 57%;
+        margin-top: 23px;
+        margin-left: auto;
+    }
+
+    .logo-browse {
+        max-width: 333px;
+        height: 77px;
+
+    }
+
+    .section-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 6px;
+    }
+
+    .join-button, .sign-in_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 112px;
+        height: 47px;
+
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        border: 1px solid #B8121A;
+        text-decoration: none;
+    }
+
+    .join-button {
+        color: #ffffff;
+        background: #B8121A;
+    }
+
+    .sign-in_button {
+        color: #B8121A;
 
     }
 }
