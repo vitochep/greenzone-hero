@@ -27,6 +27,12 @@
         top: 520px;
     }
 
+    .logo-big{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
     .section-container.mod-section_2 {
         position: relative;
         max-width: 1616px;
@@ -39,7 +45,6 @@
         margin: 0 auto 86px;
         font-weight: 400;
         color: #464069;
-
 
 
         h2 {
@@ -55,8 +60,49 @@
         }
     }
 
-    .description-image{
+    .description-image {
         margin-bottom: 50px;
+    }
+
+    .description-table {
+        max-width: 635px;
+        margin-bottom: 61px;
+
+        .description-table_title {
+            font-family: 'PlayfairDisplay';
+            font-size: 20rem;
+            line-height: 27px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #B8121A;
+            margin-bottom: 55px;
+        }
+
+        .description-table_content {
+
+
+        }
+
+        .description-table_row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            font-size: 18rem;
+            line-height: 27px;
+            color: #464069;
+            margin-bottom: 22px;
+
+            .table-category_name {
+                width: 187px;
+                flex-shrink: 0;
+                font-weight: 400;
+                margin-right: 46px;
+            }
+
+            .table-category_value {
+                font-weight: 500;
+            }
+        }
     }
 
 }
