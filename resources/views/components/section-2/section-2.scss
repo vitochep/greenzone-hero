@@ -30,27 +30,33 @@
     .section-container.mod-section_2 {
         position: relative;
         max-width: 1616px;
-        top: 257px;
+        top: 320px;
     }
 
     .section-title {
         font-family: 'PlayfairDisplay';
         max-width: fit-content;
-        margin: 0 auto;
+        margin: 0 auto 86px;
         font-weight: 400;
         color: #464069;
 
+
+
         h2 {
-            font-size: 50px;
+            font-size: 50rem;
             line-height: 67px;
             font-weight: 400;
         }
 
         p {
-            font-size: 24px;
+            font-size: 24rem;
             line-height: 32px;
             text-align: right;
         }
+    }
+
+    .description-image{
+        margin-bottom: 50px;
     }
 
 }

@@ -10,6 +10,10 @@
                     <h2>Opportunities don't happen. You create them</h2>
                     <p>- Chris Grosser</p>
                 </div>
+
+                <div class="section-description">
+                    <img  class="description-image" src="/image/svg/description-image.svg" alt="/description-image">
+                </div>
             </div>
         </div>
     </div>
