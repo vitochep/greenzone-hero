@@ -5,7 +5,7 @@
 
 
         <div class="section-wrapper">
-            <div class="section-container">
+            <div class="section-container mod-section_1">
                 <div class="header-elems">
                     <div class="header-elems_top">
                         <img class="logo-browse" src="/image/Group4.png" alt="logo-star">
@@ -48,12 +48,21 @@
                 </div>
 
                 <div class="center-block">
-                    <h3 class="center-block_subtitle">FIND YOUR COMMUNITY WITH</h3>
+                    <p class="center-block_subtitle">FIND YOUR COMMUNITY WITH</p>
                     <h1 class="center-block_title">GREENZONE HERO</h1>
 
-                    <a href="#" class="center-block_button">
+                    <a href="#" class="block_button">
                         <span>Find a Business</span>
                     </a>
+                </div>
+
+                <div class="bottom-block">
+                    <div class="bottom-block_wrap">
+                        <h1 class="bottom-block_title">ADD YOUR BUSINESS TO THE MAP <span class="bottom-block_point"> .</span></h1>
+                        <a href="#" class="block_button">
+                            <span>Join Now</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
