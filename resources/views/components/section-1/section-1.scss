@@ -1,6 +1,6 @@
 .section-1 {
+    position: relative;
     .background-map {
-        position: relative;
         background-image: url("/image/svg/main-section.svg");
         background-size: 1920px, 1591px;
         background-position-x: center;
@@ -29,7 +29,7 @@
 
     }
 
-    .header-elems {
+    .header-elems_top {
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
@@ -41,6 +41,7 @@
     .logo-browse {
         max-width: 333px;
         height: 77px;
+        margin-right: 30px;
 
     }
 
@@ -73,5 +74,27 @@
     .sign-in_button {
         color: #B8121A;
 
+    }
+
+    .social-links {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 41px;
+        margin-right: 60px;
+
+        a {
+            width: 20px;
+            height: 20px;
+
+            &:not(:last-of-type){
+                margin-right: 20px;
+            }
+
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+        }
     }
 }
