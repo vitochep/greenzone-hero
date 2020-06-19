@@ -1,11 +1,31 @@
 .section-1 {
     .background-map {
+        position: relative;
         background-image: url("/image/svg/main-section.svg");
         background-size: 1920px, 1591px;
         background-position-x: center;
         background-position-y: 98px;
         background-repeat: no-repeat;
         height: 1591px;
+    }
+
+    .logo-star{
+        position: absolute;
+        width: 385px;
+        height: 355px;
+        top: 21px;
+        left: 0;
+    }
+
+    .section-wrapper{
+        padding: 0 20px;
+    }
+
+    .section-container {
+        max-width: 1764px;
+        margin: 0 auto;
+        overflow-y: auto;
+        overflow-x: hidden;
 
     }
 }
